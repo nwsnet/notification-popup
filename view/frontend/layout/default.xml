@@ -1,0 +1,10 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd"
+      layout="1column">
+    <body>
+        <referenceContainer name="before.body.end">
+            <block class="Nwsnet\NotificationPopup\Block\NotificationPopup" name="notification_popup"
+                   template="notification_popup.phtml"/>
+        </referenceContainer>
+    </body>
+</page>

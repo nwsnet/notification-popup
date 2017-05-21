@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="nwsnet" translate="label" sortOrder="0">
+            <label>Nwsnet</label>
+        </tab>
+        <section id="notification_popup" translate="label" type="text" sortOrder="100" showInDefault="1"
+                 showInWebsite="1"
+                 showInStore="1">
+            <label>Notification Popup</label>
+            <tab>nwsnet</tab>
+            <resource>Nwsnet_NotificationPopup::config</resource>
+            <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1"
+                   showInStore="1">
+                <label>General Configuration</label>
+                <field id="enable" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="0"
+                       showInStore="0">
+                    <label>Module Enable</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="display_heading" translate="label" type="text" sortOrder="20" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Heading</label>
+                </field>
+                <field id="display_text" translate="label" type="textarea" sortOrder="30" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Text</label>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

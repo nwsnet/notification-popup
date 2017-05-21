@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <notification_popup>
+            <general>
+                <enable>0</enable>
+                <display_heading>Default Heading</display_heading>
+                <display_text>Hello World</display_text>
+            </general>
+        </notification_popup>
+    </default>
+</config>

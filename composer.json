@@ -1,0 +1,27 @@
+{
+    "name": "nwsnet/module-notification-popup",
+    "description": "Simple module to enable a popup with heading and text",
+    "keywords": "magento2, popup, modal, notification",
+    "authors": [
+        {
+            "name": "Julian Wittorf",
+            "email": "jwittorf@die-netzwerkstatt.de",
+            "homepage": "https://twitter.com/sirAWESOME_",
+            "role": "Developer"
+        }
+    ],
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Nwsnet\\NotificationPopup\\": ""
+        }
+    }
+}

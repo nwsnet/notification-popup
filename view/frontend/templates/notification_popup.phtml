@@ -1,0 +1,6 @@
+<?php if ($this->getNotificationPopupEnable()): ?>
+    <div id="nwsnet-notification_popup" style="display: none;"
+         data-mage-init='{"Nwsnet_NotificationPopup/js/init": {"title": "<?php echo $this->getNotificationPopupDisplayHeading(); ?>"}}'>
+        <?php echo $this->getNotificationPopupDisplayText(); ?>
+    </div>
+<?php endif; ?>
