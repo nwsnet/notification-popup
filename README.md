@@ -65,7 +65,7 @@ Take a look at the options in `vendor/magento/module-ui/view/base/web/js/modal/m
 If you encounter any problems or bugs, please create an issue on [GitHub](https://github.com/nwsnet/notification-popup/issues).
 
 ## Contribution
-Any contribution to the development of MageSetup is highly welcome.
+Any contribution is highly welcome.
 The best possibility to provide any code is to open a [pull request on GitHub](https://help.github.com/articles/using-pull-requests).
 
 ## Developer
@@ -74,7 +74,12 @@ Julian Wittorf (die NetzWerkstatt GmbH & Co. KG)
 * Website: [www.die-netzwerkstatt.de](http://www.die-netzwerkstatt.de/)
 * Twitter: [@sirAWESOME_](https://twitter.com/sirAWESOME_)
 
-## LICENSE
+## License and Copyright
+
+Copyright © Julian Wittorf <jwittorf@die-netzwerkstatt.de>
+
+This work is free. You can redistribute it and/or modify it under the terms of the Do What The Fuck You Want To Public License,
+Version 2, as published by Sam Hocevar. See the LICENSE file for more details.
 
 [WTFPL – Do What the Fuck You Want to Public License](http://www.wtfpl.net/)
 
